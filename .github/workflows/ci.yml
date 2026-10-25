@@ -11,11 +11,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
-        - name: Link Jira Issue
+
+      - name: Link Jira Issue
         run: echo "Jira Issue SCRUM-11 - Student Login"
 
       - name: Verify student management files
